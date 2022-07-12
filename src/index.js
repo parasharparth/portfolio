@@ -11,6 +11,8 @@ root.render(
   </React.StrictMode>
 );
 
+//whatever the root element is loaded, then app.js is completely passed to index.html through the root.render
+//It is passed using the div element name i.e. root
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
